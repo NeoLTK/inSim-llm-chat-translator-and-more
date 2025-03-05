@@ -8,15 +8,6 @@ const fs = require('fs');
 
 const inSim = new InSim();
 
-//var model = "hf.co/mradermacher/Qwen2.5-7B-Instruct-Uncensored-GGUF:Q8_0"
-//var model = "hf.co/roleplaiapp/Qwen2.5-7B-Instruct-Uncensored-Q8_0-GGUF"
-
-//var model = "hf.co/oscar128372/DeepSeek-R1-Distill-Qwen2.5-Coder-7B-Instruct-GGUF" // uncensor ne marche pas, suit pas toutes les regles
-
-//var model = "hf.co/mradermacher/Qwen2.5-Coder-14B-Instruct-Uncensored-GGUF:Q8_0"
-//var model = "hf.co/BlossomsAI/Qwen2.5-Coder-7B-Instruct-Uncensored-GGUF:Q8_0"
-
-
 var prompt = ""
 updatePrompt()
 
